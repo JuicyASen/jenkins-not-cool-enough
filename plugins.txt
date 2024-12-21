@@ -1,0 +1,14 @@
+configuration-as-code
+role-strategy
+workflow-aggregator
+git
+github-branch-source
+pipeline-github-lib
+pipeline-stage-view
+cloudbees-folder
+build-timeout
+credentials-binding
+timestamper
+ws-cleanup
+msbuild
+ssh-slaves

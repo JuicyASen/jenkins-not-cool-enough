@@ -1,0 +1,14 @@
+services:
+  jnce:
+    build: .
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    environment:
+      - JENKINS_ADMIN_PASSWORD=your_secure_password
+      - SECRET_PASS=your_secure_password
+
+volumes:
+  jenkins_home:
